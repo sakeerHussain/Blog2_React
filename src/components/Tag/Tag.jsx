@@ -1,6 +1,6 @@
 export default function Tag () {
     return(
-        <div className="card my-4">
+        <div className="card my-4 shadow">
         <div className="card-header">
           <h4>Tags</h4>
         </div>

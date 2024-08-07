@@ -5,24 +5,11 @@
 }
 body{
   font-family: "Raleway", sans-serif;
-  background-color: lightgray;
+  background-color: #f1f1f1;
 }
-
-/* .mainContainer{
-  max-width: 1400px;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+.shadow {
+  box-shadow:  0 4px 8px rgba(0, 0, 0, 0.2);
 }
-.contentContainer{
-  display: flex;
-  flex: 1;
-  padding: 20px;
-} */
-
-/* src/App.css */
-/* src/App.css */
-
 .mainContainer {
   display: flex;
   flex-direction: column;

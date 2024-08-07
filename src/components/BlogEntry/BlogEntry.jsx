@@ -11,7 +11,7 @@ export default function BlogEntry({title, description, date, comments, imageUrl}
     return(
         <div className="card mb-4">
         <img src={imageUrl} className="card-img-top" alt="Nature"/>
-        <div className="card-body">
+        <div className="card-body shadow">
           <h3 className="card-title"><b>{title}</b></h3>
           <h5 className="card-subtitle text-muted">Title description, <span className="text-muted">{date}</span></h5>
           <p className="card-text mt-3">{isExpanded ? description : truncatedDescription}</p>

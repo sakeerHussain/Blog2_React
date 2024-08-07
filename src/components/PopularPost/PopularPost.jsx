@@ -1,7 +1,7 @@
 import './PopularPost.css';
 export default function PopularPost() {
     return(
-        <div className="card my-4">
+        <div className="card my-4 shadow">
     <div className="card-header">
       <h4>Popular Posts</h4>
     </div>
